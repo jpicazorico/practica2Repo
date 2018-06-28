@@ -1,0 +1,10 @@
+pipeline {
+	agent any
+	stages {
+		stage('inicio') {
+			step{
+			echo 'Bienvenido al mundo Jenkins'
+			}
+		}
+	}
+}
